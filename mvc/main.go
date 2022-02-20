@@ -1,3 +1,9 @@
 package main
 
-import 
+import (
+	"golang-microservices/mvc/app"
+)
+
+func main() {
+	app.StartApp()
+}
